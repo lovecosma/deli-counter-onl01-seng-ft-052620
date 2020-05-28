@@ -16,7 +16,7 @@
   end
   end
 
-  def take_a_number(person)
+  def take_a_number(restaurant, person)
 
 
   end
