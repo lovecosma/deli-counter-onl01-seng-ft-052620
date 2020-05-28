@@ -30,6 +30,6 @@
       @line << person
       @spot += 1
     end
-    puts "Welcome, #{@person}. You are number #{@spot} in line."
+      puts "Welcome, #{@person}. You are number #{@spot} in line."
   end 
   end
