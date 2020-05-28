@@ -1,1 +1,21 @@
 # Write your code here.
+  def line(line)
+    @line = line
+    @positions = []
+    @spot = 1
+    if @line.length == 0
+      puts "The line is currently empty."
+    else
+      @line.each do |person|
+        @positions << " #{@spot}." + " #{person}"
+        @spot += 1
+      end
+      @positions.to_s
+      @positions.join
+      puts "The line is currently:" + @positions.join
+  end
+  end
+
+  def take_a_number
+    
+  end
