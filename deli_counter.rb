@@ -25,9 +25,13 @@
       if @restaurant.length < 2
       puts "Welcome, #{@person}. You are number #{@spot} in line."
       else
-      @restaurant.each do |person|
-      @spot += 1
+        @restaurant.each do |person|
+        @spot += 1
+        end
+          puts "Welcome, #{@person}. You are number #{@spot-1} in line."
       end
-      puts "Welcome, #{@person}. You are number #{@spot-1} in line."
-      end
+  end
+
+  def now_serving()
+    
   end
