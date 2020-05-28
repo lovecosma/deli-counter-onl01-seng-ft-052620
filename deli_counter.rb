@@ -20,6 +20,7 @@
   def take_a_number(restaurant, person)
   @restaurant = restaurant
   @person = person
+  @line = []
   @restaurant.each do |person|
   @line << @person
   end
