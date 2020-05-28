@@ -18,18 +18,18 @@
   end
 
   def take_a_number(restaurant, person)
-    @restaurant = restaurant
-    @person = person
-    @restaurant << @person
-    @line = []
-    @spot = 1
-    if @restaurnant.length < 2
+      @restaurant = restaurant
+      @person = person
+      @restaurant << @person
+      @line = []
+      @spot = 1
+      if @restaurnant.length < 2
+      puts "Welcome, #{@person}. You are number #{@spot} in line."
+      else
+      @restaurant.each do |person|
+      @line << person
+      @spot += 1
+    end
     puts "Welcome, #{@person}. You are number #{@spot} in line."
-    else
-    @restaurant.each do |person|
-    @line << person
-    @spot += 1
-  end
-  puts "Welcome, #{@person}. You are number #{@spot} in line."
-end 
+  end 
   end
