@@ -22,7 +22,7 @@
     @person = person
     @restaurant << @person
     @line = []
-    @spot = 1
+    @spot = 1 
     @restaurant.each do |person|
     @line << person
     @spot += 1
