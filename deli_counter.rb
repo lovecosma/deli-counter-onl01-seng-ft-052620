@@ -40,3 +40,4 @@
     @restaurant.shift
     puts @restaurant
   end
+end 
