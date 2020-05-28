@@ -21,5 +21,5 @@
   @person = person
   @spot = 1
   @restaurant << @person
- puts "Welcome, #{@person}. You are number 1 in line."
+ puts "Welcome, #{@person}. You are number #{@spot} in line."
   end
