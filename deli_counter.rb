@@ -6,7 +6,7 @@
     if @restaurant.length == 0
       puts "The line is currently empty."
     else
-      @line.each do |person|
+      @restaurant.each do |person|
         @positions << " #{@spot}." + " #{person}"
         @spot += 1
       end
