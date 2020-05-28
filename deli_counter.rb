@@ -34,6 +34,7 @@
 
   def now_serving(restaurant)
     @restaurant = restaurant
+    @cu5rrent_person
     if @restaurant.length == 0
     puts "There is nobody waiting to be served!"
   else
