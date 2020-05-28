@@ -20,7 +20,11 @@
   @restaurant = restaurant
   @person = person
   @spot = 1
-  @restaurant << @person
-  puts "Welcome, #{@person}. You are number #{@spot} in line."
-  @spot += 1
+  @restaurant.each do |person|
+    @positions << @person
+    @spot += 1
+  end
+  @positions.to_s
+  @positions.join
+  puts "The line is currently:" + @positions.join
   end
