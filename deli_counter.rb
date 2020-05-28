@@ -40,6 +40,6 @@
   else
     @current_person = @restaurant.first
     @restaurant.shift
-    puts "Currently serving @current_person."
+    puts "Currently serving #{@current_person}."
   end
 end
