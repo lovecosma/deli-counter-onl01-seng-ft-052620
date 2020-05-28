@@ -21,7 +21,7 @@
   @person = person
   @spot = 1
   @restaurant.each do |person|
-    @positions << @person
+    @positions << persomn
     @spot += 1
   end
   @positions.to_s
