@@ -39,6 +39,7 @@
     puts "There is nobody waiting to be served!"
   else
     @current_person = @restaurant.first
+    @restaurant.shift
     puts @restaurant
   end
 end
