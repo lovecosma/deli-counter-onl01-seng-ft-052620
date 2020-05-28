@@ -36,5 +36,6 @@
     @restaurant = restaurant
     if @restaurant.length == 0
     puts "There is nobody waiting to be served!"
-  end
+  else 
+    @restaurant. shift
   end
