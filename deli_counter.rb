@@ -24,4 +24,4 @@
   @restaurant.each do |person|
   @line << @person
   @spot += 1
-  end
+   end
