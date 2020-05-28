@@ -14,11 +14,12 @@
       @positions.join
       puts "The line is currently:" + @positions.join
   end
+
   end
 
   def take_a_number(restaurant, person)
   @restaurant = restaurant
   @person = person
-  @restaurant << @person
- puts "Welcome, #{@person}. You are number 1 in line."
+  @restaurant.each do |person|
+  @line << @person
   end
