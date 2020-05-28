@@ -18,11 +18,11 @@
   end
 
   def take_a_number(restaurant, person)
-  @restaurant = restaurant
-  @person = person
-  @line = []
-  @restaurant.each do |person|
-  @line << @person
-  @spot += 1
-  end
+    @restaurant = restaurant
+    @person = person
+    @line = []
+    @restaurant.each do |person|
+    @line << @person
+    @spot += 1
+    end
   end
