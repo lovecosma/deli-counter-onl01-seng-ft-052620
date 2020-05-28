@@ -19,5 +19,5 @@
   def take_a_number(restaurant, person)
   @restaurant = restaurant
   @person = person
-  
+  @restaurant = 
   end
