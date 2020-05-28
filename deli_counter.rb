@@ -21,7 +21,6 @@
       @restaurant = restaurant
       @person = person
       @restaurant << @person
-      @line = []
       @spot = 1
       if @restaurant.length < 2
       puts "Welcome, #{@person}. You are number #{@spot} in line."
