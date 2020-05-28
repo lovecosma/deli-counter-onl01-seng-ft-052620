@@ -27,7 +27,6 @@
       puts "Welcome, #{@person}. You are number #{@spot} in line."
       else
       @restaurant.each do |person|
-      @line << person
       @spot += 1
       end
       puts "Welcome, #{@person}. You are number #{@spot-1} in line."
