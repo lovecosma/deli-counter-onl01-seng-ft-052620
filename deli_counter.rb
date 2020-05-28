@@ -25,4 +25,5 @@
     @line << @person
     @spot += 1
     end
+    puts
   end
