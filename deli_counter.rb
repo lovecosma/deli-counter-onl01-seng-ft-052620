@@ -35,6 +35,6 @@
   def now_serving(restaurant)
     @restaurant = restaurant
     if @restaurant.length == 0
-    puts "The line is currently empty."
-  end 
+    puts "There is nobody waiting to be served!"
+  end
   end
