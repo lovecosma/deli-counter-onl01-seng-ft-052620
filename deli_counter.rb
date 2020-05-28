@@ -1,9 +1,9 @@
 # Write your code here.
-  def line(line)
-    @line = line
+  def line(restaurant)
+    @restaurant = restaurant
     @positions = []
     @spot = 1
-    if @line.length == 0
+    if @restaurant.length == 0
       puts "The line is currently empty."
     else
       @line.each do |person|
@@ -16,6 +16,7 @@
   end
   end
 
-  def take_a_number
-    
+  def take_a_number(person)
+
+
   end
