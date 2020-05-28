@@ -22,10 +22,10 @@
     @person = person
     @restaurant << @person
     @line = []
-    @spot = 1 
+    @spot = 1
     @restaurant.each do |person|
     @line << person
     @spot += 1
     end
-    puts "Welcome, #{@line[@spot-1]}. You are number #{@spot} in line."
+    puts "Welcome, #{@person}. You are number #{@spot} in line."
   end
