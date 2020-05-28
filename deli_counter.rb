@@ -32,6 +32,7 @@
       end
   end
 
-  def now_serving()
-    
+  def now_serving(restaurant)
+    if @restaurant.length == 0
+      puts "The line is currently empty."
   end
