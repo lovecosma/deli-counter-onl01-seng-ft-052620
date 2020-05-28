@@ -23,7 +23,7 @@
       @restaurant << @person
       @line = []
       @spot = 1
-      if @restaurnant.length < 2
+      if @restaurant.length < 2
       puts "Welcome, #{@person}. You are number #{@spot} in line."
       else
       @restaurant.each do |person|
