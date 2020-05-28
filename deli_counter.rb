@@ -25,5 +25,5 @@
     @line << person
     @spot += 1
     end
-    puts "Welcome, #{@line[@spot-1]}. You are number 4 in line."
+    puts "Welcome, #{@line[@spot-1]}. You are number #{@spot} in line."
   end
